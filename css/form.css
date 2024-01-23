@@ -1,0 +1,406 @@
+.container-form {
+    width: 50%;
+  }
+  
+  
+  .container-h1 {
+    display: flex;
+    margin-top: 150px;
+    font-size: 72px;
+    font-weight: 750;
+  }
+  
+  .container-h2{
+    display: flex;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 31px;
+    width: 300px;
+  }
+  
+  .form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 300px;
+    
+  }
+  
+  .botton-google {
+    display: flex;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    max-width: 300px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #3c4043;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .botton-google img {
+    height: 20px;
+    padding-right: 5px;
+  }
+  
+  
+  .botton-apple {
+    display: flex;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    max-width: 300px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+  
+  }
+  
+  .botton-apple img {
+    position: relative;
+    right: 9px;
+    height: 20px;
+    padding-right: 0px;
+  
+  }
+  
+  .separation {
+    margin-top: 10px; 
+  }
+  
+  .botton-create {
+    display: flex;
+    position: relative;
+    background-color: rgb(57, 175, 254);
+    max-width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .taxes{
+    margin-top: 8px;
+    font-size: 11.7px;
+    color: rgb(113, 118, 123);
+  }
+  
+  a {
+    color: rgb(29, 155, 240);
+  }
+  
+  .yt{
+    font-size: 18px;
+    margin-top: 50px;
+    font-weight: 700;
+  }
+  
+  
+  .botton-iniciar{
+    display: flex;
+    position: relative;
+    background-color: transparent;
+    border: 1px solid rgb(83, 100, 113);
+    max-width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(29, 155, 240);
+    border-radius: 50px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .botton-iniciar:hover {
+    background-color: rgba(95, 191, 255, 0.1);
+  }
+
+
+
+
+  @media (max-width: 1400px) {
+  
+    .container-h1 {
+      display: flex;
+      margin-top: 60px;
+      font-size: 40px;
+      font-weight: 750;
+    }
+    
+    .container-h2{
+      display: flex;
+      margin-top: 30px;
+      font-weight: 700;
+      font-size: 20px;
+      width: 300px;
+    }
+  
+    .form{
+      display: flex;
+      flex-direction: column;
+      margin-top: 15px;
+      width: 300px;
+      
+    }
+    
+    .botton-google {
+      display: flex;
+      position: relative;
+      background-color: rgb(255, 255, 255);
+      max-width: 300px;
+      height: 35px;
+      justify-content: center;
+      align-items: center;
+      color: #3c4043;
+      border-radius: 50px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    
+    .botton-google img {
+      height: 20px;
+      padding-right: 5px;
+    }
+    
+    
+    .botton-apple {
+      display: flex;
+      position: relative;
+      background-color: rgb(255, 255, 255);
+      max-width: 300px;
+      height: 35px;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      border-radius: 50px;
+      font-weight: 600;
+      cursor: pointer;
+    
+    }
+    
+    .botton-apple img {
+      position: relative;
+      right: 9px;
+      height: 20px;
+      padding-right: 0px;
+    
+    }
+    
+    .separation {
+      margin-top: 10px; 
+    }
+    
+    .botton-create {
+      display: flex;
+      position: relative;
+      background-color: rgb(57, 175, 254);
+      max-width: 300px;
+      height: 35px;
+      margin-top: 10px;
+      justify-content: center;
+      align-items: center;
+      color: rgb(255, 255, 255);
+      border-radius: 50px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    
+    .taxes{
+      margin-top: 8px;
+      font-size: 11.7px;
+      color: rgb(113, 118, 123);
+    }
+    
+    a {
+      color: rgb(29, 155, 240);
+    }
+    
+    .yt{
+      font-size: 18px;
+      margin-top: 30px;
+      font-weight: 700;
+    }
+    
+    
+    .botton-iniciar{
+      display: flex;
+      position: relative;
+      background-color: transparent;
+      border: 1px solid rgb(83, 100, 113);
+      max-width: 300px;
+      height: 35px;
+      margin-top: 10px;
+      justify-content: center;
+      align-items: center;
+      color: rgb(29, 155, 240);
+      border-radius: 50px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    
+    .botton-iniciar:hover {
+    
+      background-color: rgba(95, 191, 255, 0.1);
+    }
+    
+    
+
+  
+  
+  
+  
+  }
+
+  @media (max-width: 978px) {
+
+
+    .container-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    
+    }
+    
+    
+    .container-h1 {
+      display: flex;
+      margin-top: 0px;
+      font-size: 50px;
+      font-weight: 750;
+      max-width: 330px;
+    }
+    
+    .container-h2{
+      display: flex;
+      margin-top: 50px;
+      font-weight: 700;
+      font-size: 31px;
+      width: 330px;
+    }
+    
+    .form{
+      display: flex;
+      flex-direction: column;
+      margin-top: 15px;
+      width: 330px;
+      
+    }
+    
+    .botton-google {
+      display: flex;
+      position: relative;
+      background-color: rgb(255, 255, 255);
+      max-width: 330px;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+      color: #3c4043;
+      border-radius: 50px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    
+    .botton-google img {
+      height: 20px;
+      padding-right: 5px;
+    }
+    
+    
+    .botton-apple {
+      display: flex;
+      position: relative;
+      background-color: rgb(255, 255, 255);
+      max-width: 330px;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      border-radius: 50px;
+      font-weight: 600;
+      cursor: pointer;
+    
+    }
+    
+    .botton-apple img {
+      position: relative;
+      right: 9px;
+      height: 20px;
+      padding-right: 0px;
+    
+    }
+    
+    .separation {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .botton-create {
+      display: flex;
+      position: relative;
+      background-color: rgb(57, 175, 254);
+      max-width: 330px;
+      height: 40px;
+      margin-top: 10px;
+      justify-content: center;
+      align-items: center;
+      color: rgb(255, 255, 255);
+      border-radius: 50px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    
+    .taxes{
+      margin-top: 8px;
+      font-size: 11.7px;
+      color: rgb(113, 118, 123);
+    }
+    
+    a {
+      color: rgb(29, 155, 240);
+    }
+    
+    .yt{
+      font-size: 18px;
+      margin-top: 30px;
+      font-weight: 700;
+    }
+    
+    
+    .botton-iniciar{
+      display: flex;
+      position: relative;
+      background-color: transparent;
+      border: 1px solid rgb(83, 100, 113);
+      max-width: 330px;
+      height: 40px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      justify-content: center;
+      align-items: center;
+      color: rgb(29, 155, 240);
+      border-radius: 50px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    
+    .botton-iniciar:hover {
+    
+      background-color: rgba(95, 191, 255, 0.1);
+    }
+
+    }

@@ -32,8 +32,9 @@
     justify-content: center;
     align-items: center;
     margin-top: 0px;
-
 }
+
+
 .svg {
     position: relative;
     right: 245px;
@@ -195,19 +196,41 @@
 
   @media (max-width: 1400px) {
 
+    .header-container-b {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0px;
+      width: 100%;
+  }
+    
+    .svg {
+      position: absolute;
+      right: 343px;
+      cursor: pointer;
+  } 
+
+
+
+
+
     .container-principal-b {
       display: flex;
       flex-direction: column;
       margin-top: 0px;
       background-color: black;
       width: 600px;
-      height: 550px;
+      height: 100%;
       border-radius: 16px;
       justify-content: center;
       align-items: center;
   }
     
   .container-form-b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50%;
   }
 
@@ -217,6 +240,16 @@
     margin-top: 35px;
     width: 300px;  
   }
+
+  .Create-account-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+
+  
 
   }
 

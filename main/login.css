@@ -5,7 +5,7 @@
 }
 
 .container {
-    display: flex;
+    display: none;
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -13,28 +13,25 @@
     position: absolute;
     z-index: 1;
     background-color: rgba(158, 216, 255, 0.2);
-
 }
 
 .container-principal-b {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 0px;
     background-color: black;
     width: 600px;
     height: 650px;
     border-radius: 16px;
     justify-content: center;
     align-items: center;
-
-   
 }
 
 .header-container-b {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 0px;
 
 }
 .svg {
@@ -193,6 +190,34 @@
     margin-top: 20px;
     align-items: center;
     color: rgb(102, 102, 102);
+  }
+
+
+  @media (max-width: 1400px) {
+
+    .container-principal-b {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0px;
+      background-color: black;
+      width: 600px;
+      height: 550px;
+      border-radius: 16px;
+      justify-content: center;
+      align-items: center;
+  }
+    
+  .container-form-b {
+    width: 50%;
+  }
+
+  .form-b{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    width: 300px;  
+  }
+
   }
 
 
